@@ -10,12 +10,15 @@ const tesxt = document.querySelectorAll("#resposta")
 
 if (agora_1 >= 0 && agora_1 <= 12) {
     document.body.style.backgroundImage = "url(fundo_2.png)";
+    document.body.style.backgroundColor = "#fbf3da"
     horas.innerHTML = `<p id="resposta">são ${agora_1} e ${agora_2} entaõ tenha um bom dia</p>`
     } else if (agora_1 > 11 && agora_1 <= 17) {
         document.body.style.backgroundImage = "url(fundo_1.png)";
+        document.body.style.backgroundColor = "#484c5a"
         horas.innerHTML = `<p id="resposta_1">são ${agora_1} e ${agora_2} entaõ tenha uma boa tarde</p>`
     } else if  (agora_1 > 17 && agora_1 <= 24) {
         document.body.style.backgroundImage = "url(fundo.png)";
+        document.body.style.backgroundColor = "black"
         horas.innerHTML = `<p id="resposta">são ${agora_1} e ${agora_2} entaõ tenha uma boa noite</p>`
     }
 
